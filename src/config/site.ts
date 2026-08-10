@@ -37,10 +37,10 @@ export interface SiteConfigInput
 
 const defaultNavLinks: SiteConfig["navLinks"] = [
 	{ href: "/about", label: "About" },
-	{ href: "/researches", label: "Research" },
-	{ href: "/teaching", label: "Teaching" },
+	//{ href: "/researches", label: "Research" },
+	//{ href: "/teaching", label: "Teaching" },
 	{ href: "/projects", label: "Projects" },
-	{ href: "/posts", label: "Blog" },
+	//{ href: "/posts", label: "Blog" },
 ];
 
 const defaultPageTitles: SiteConfig["pageTitles"] = {
