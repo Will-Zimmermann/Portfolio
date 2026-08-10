@@ -9,26 +9,25 @@ import { defineSiteConfig } from "./src/config/site";
 
 export const siteConfig = defineSiteConfig({
 	// Required: the four values most sites should personalize first.
-	author: "Your Name",
+	author: "William R. Zimmermann",
 	siteUrl: "https://astro-theme-scholars.pages.dev",
 	hero: {
 		headline:
-			"Scholarship at the intersection of learning analytics and web infrastructure.",
+			"Will Zimmermann",
 		subheadline:
-			"I am a researcher focused on building equitable tooling for open scholarship. My group studies how learning signals travel across platforms, and we ship practical infrastructure for sharing data, publications, and code.",
+			"I am a student at the University of Georgia, pursuing a degree in Electrical Engineering. I am passionate about furthering my knowledge of electronics and building foundational skills necessary for success.",
 		profileImage: "/profile.svg",
-		statusBadge: "Open to collaboration",
+		//statusBadge: "Open to collaboration",
 	},
 
 	// Common profile and discovery settings.
 	description:
-		"Scholarship at the intersection of learning analytics and web infrastructure, building equitable tooling for open scholarship.",
+		"Personal portfolio of William R. Zimmermann, a student at the University of Georgia pursuing a degree in Electrical Engineering.",
 	keywords: [
-		"learning analytics",
-		"open scholarship",
-		"web infrastructure",
-		"academic website",
-		"research",
+		"academic portfolio",
+		"electrical engineering",
+		"william zimmermann",
+		"university of georgia",
 	],
 	// Optional social-preview overrides:
 	// language: "en",
@@ -39,10 +38,10 @@ export const siteConfig = defineSiteConfig({
 	// ogImageHeight: 630,
 	affiliations: [
 		{
-			role: "Assistant Professor",
-			department: "School of Information",
-			institution: "University Name",
-			url: "https://example.edu/info",
+			role: "Student",
+			department: "School of Electrical and Computer Engineering",
+			institution: "University of Georgia",
+			url: "https://engineering.uga.edu/schools/sece/",
 		},
 	],
 	researchInterests: [
