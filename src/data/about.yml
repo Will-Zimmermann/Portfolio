@@ -1,67 +1,67 @@
 hero:
   title: About
-  description: >
-    Scholar, educator, and builder focused on learning analytics, humane computing, and tools
-    that support open collaboration.
+  description: Meow.
 
 profile:
   - label: Current Role
-    value: Assistant Professor, School of Information
-  - label: Research Areas
-    value: Learning analytics, web infrastructure, civic tech
-  - label: Education
-    value: Ph.D., Human-Computer Interaction, 2021
+    value: Student, University of Georgia 
+  - label: interest Areas
+    value: Robotics, Sensors, Embedded Systems, and PCB Design
+  - label: Current Education
+    value: Undergraduate, Electrical and Electronics Engineering
 
 
 experience:
-  - role: Assistant Professor
-    organization: School of Information
-    period: 2022 — Present
+  - role: Lead Designer
+    organization: ECSE Design Methodology 
+    period: Spring 2026
     bullets:
-      - Lead the Learning Signals Lab with collaborators across education and computer science.
-      - Teach graduate seminars on human-centered AI and reproducible research pipelines.
-      - Co-chair the university open scholarship task force, advising on platform governance.
-  - role: Research Scientist
-    organization: Civic Innovation Lab
-    period: 2019 — 2022
+      - Collaborated along side 5 random teammates to design and build an Electrical Circuit Workbench over the course of the semester.
+      - Co-operated on designing the scrollable LCD UI, Ohmmeter, Internal and External Voltmeter, DC Voltage Reference, Frequency Measurement, and Function Generator (Square and Sine waves).
+      - Managed weekly deliverables and technical reports by dividing work effectively between smaller groups on our team based on technical qualifications and personal interest.
+  - role: Grocery Clerk
+    organization: Publix
+    period: 2024 — Present
     bullets:
-      - Designed public data dashboards for municipal partners across five cities.
-      - Published foundational work on measuring knowledge transfer in informal communities.
+      -	Contributed weekly to the success of the highest-grossing Publix in the Atlanta Division despite being one of the smallest stores in the district.
+      - Performed at an “Exceeded Expectations” level on all my yearly evaluations despite working with very limited availability. 
 
-service:
-  - role: Program Chair Assistant
-    organization: ACM Conference on Learning at Scale (L@S) 2024
-    period: 2023 — 2024
-  - Editorial Board — Journal of Learning Analytics
-  - Organizer — Web Science Workshop on Social Learning Signals
+#service:
+#  - role: Program Chair Assistant
+#    organization: ACM Conference on Learning at Scale (L@S) 2024
+#    period: 2023 — 2024
+#  - Editorial Board — Journal of Learning Analytics
+#  - Organizer — Web Science Workshop on Social Learning Signals
 
 education:
-  - degree: Ph.D., Human-Computer Interaction
-    institution: Northridge University
-    year: 2021
-  - degree: M.S., Learning Sciences
-    institution: Horizon Institute of Technology
-    year: 2016
-  - degree: B.S., Computer Science
-    institution: Clearwater College
-    year: 2014
+  - degree: BS Electrical and Electronic Engineering
+    institution: University of Georgia
+    year: 2024 - Present
+  - degree: Highschool Diploma
+    institution: North Oconee Highschool
+    year: 2020 - 2024
 
 sections:
   - title: Awards
     icon: i-mdi:trophy-award
     items:
-      - title: Best Paper Award
-        subtitle: ACM CHI 2023
-        date: 2023
-        description: For the paper "Social Learning Signals in the Wild"
-        badges:
-          - Best Paper
-          - Peer reviewed
-        highlights:
-          - Recognized for mixed-methods analysis of social learning communities.
-        links:
-          - label: Award page
-            href: https://example.com/award
-      - title: NSF Graduate Research Fellowship
-        date: 2016 — 2021
-      - Dean's List, Clearwater College (2010-2014)
+      - title: Presidential Scholar
+        subtitle: University of Georgia
+        date: Spring/Fall 2025, Spring 2026
+        description: Ended the academic semester with all A's 
+#        badges:
+#          - Best Paper
+#          - Peer reviewed
+#        highlights:
+#          - Recognized for mixed-methods analysis of social learning communities.
+#        links:
+#          - label: Award page
+#            href: https://example.com/award
+      - title: Drumline Lieutenant
+        subtitle: North Oconee Titan Regiment
+        date: 2024
+        description: Elected by peers and Band Director to serve as a Marching Band Officer
+      - title: EPOC Award
+        subtitle: North Oconee High School
+        date: 2024
+        description: Awarded by Engineering Teacher for consistent dedication throughout all 3 courses

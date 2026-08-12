@@ -1,3 +1,4 @@
+
 - title: Scholars Portal
   subtitle: Template infrastructure for academic homepages
   status: active
@@ -24,20 +25,35 @@
     - label: Documentation
       href: https://github.com/jxpeng98/
 
-- title: Multilingual Citation Miner
+- title: ECSE Design Methodology
+  subtitle: Design and Build a functional Circuit Workbench
   status: past
-  period: 2022 — 2023
-  description: Natural-language processing pipeline that extracts multilingual citations from PDF proceedings to improve bibliometric coverage for underrepresented venues.
+  period: Spring 2026
+  description: Using only pre-approved parts and a Raspberry Pi 4, include scrollable LCD UI, Ohmmeter, Internal and External Voltmeter, DC Voltage Reference, Frequency Measurement, and Function Generator (Square and Sine waves).
+  highlights: 
+    - Co-operated with 5 teamates on every facet of the design
+    - Completed weekly progress reports and final design techincal documentation
   tech:
     - Python
-    - spaCy
-    - PostgreSQL
+    - Raspberry Pi 4
+    - Digital Potentiometers
+    - LCD and Rotary Encoder
+    - OP-AMPs, Comparators, etc.
+  #images
 
-- title: Learning Signals Lab
+
+- title: Gaming PC Build
+  subtitle: Planned and built my own gaming PC
   status: past
-  period: 2021 — 2022
-  description: Interactive dashboards and data collection workflows for a research lab studying social learning signals across online communities.
+  period: Summer 2025
+  description: Set myself a max budget of $2000, and focused on optimizing for high performance. 
+  highlights: 
+    - Learned valuable knowledge of computer assembly and architecture. 
+#images
   tech:
-    - Next.js
-    - GraphQL
-    - D3.js
+    - Windows
+    - PC Picker
+    - Newegg
+  links:
+    - label: PCPartPicker
+      href: https://pcpartpicker.com/user/Zamboner/saved/#view=tbZgzy
