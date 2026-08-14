@@ -15,14 +15,13 @@ export const siteConfig = defineSiteConfig({
 		headline:
 			"Will Zimmermann",
 		subheadline:
-			"I am a student at the University of Georgia, pursuing a degree in Electrical Engineering. I am passionate about furthering my knowledge of electronics and building foundational skills necessary for success.",
-		profileImage: "/profile.svg",
+			"Hello! I am a student at the University of Georgia, pursuing a degree in Electrical Engineering. Born and raised in Athens GA, I have always been passionate about building and fixing things, and I am excited to continue learning and tackling new challenges in this field.",
 		//statusBadge: "Open to collaboration",
 	},
 
 	// Common profile and discovery settings.
 	description:
-		"Personal portfolio of William R. Zimmermann, a student at the University of Georgia pursuing a degree in Electrical Engineering.",
+		"Academic portfolio of William R. Zimmermann, a student at the University of Georgia pursuing a degree in Electrical Engineering.",
 	keywords: [
 		"academic portfolio",
 		"electrical engineering",
@@ -67,7 +66,7 @@ export const siteConfig = defineSiteConfig({
 	pageTitles: {
 		about: {
 			description:
-				"Scholar, educator, and builder focused on learning analytics, humane computing, and tools that support open collaboration.",
+				"A brief introduction to my academic and professional background, research interests, and personal pursuits.",
 		},
 		/*
 		researches: {

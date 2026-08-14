@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import Layout from "../layouts/Layout.astro";
 import FilterBar from "../components/FilterBar.astro";
 import { projects } from "../components/projects";
@@ -205,6 +206,14 @@ const projectGroups = [
                         </span>
                       )}
                     </div>
+                  )}
+
+                  {project.image && (
+                    <img 
+                      src={project.image} 
+                      alt={project.alt || project.title} 
+                      class="my-4 h-auto w-full rounded-lg object-cover shadow-md"
+                    />
                   )}
 
                   {(hasMultipleLinks || isSingleLink) && (

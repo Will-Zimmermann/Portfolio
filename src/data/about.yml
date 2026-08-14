@@ -1,6 +1,6 @@
 hero:
   title: About
-  description: Meow.
+  #description: 
 
 profile:
   - label: Current Role
@@ -8,7 +8,7 @@ profile:
   - label: interest Areas
     value: Robotics, Sensors, Embedded Systems, and PCB Design
   - label: Current Education
-    value: Undergraduate, Electrical and Electronics Engineering
+    value: Undergraduate, Electrical and Electronic Engineering
 
 
 experience:

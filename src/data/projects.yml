@@ -1,58 +1,81 @@
-
-- title: Scholars Portal
-  subtitle: Template infrastructure for academic homepages
+- title: Portfolio Website
+  subtitle: A personal project to create a portfolio website to showcase my work.  
   status: active
-  period: 2023 — Present
-  description: Source-available portal that aggregates publications, talks, and teaching materials into a single academic profile with analytics.
+  period: Summer 2026 — Present
+  description: Design and implement a personal portfolio website using an Astro template. The website will showcase my projects, skills, and experience in a visually appealing and user-friendly manner.
   badges:
-    - Template
-    - Open source
+    - Web Development
   highlights:
-    - Keeps publications, posts, and project metadata in simple content files.
-    - Supports release-tagged updates for downstream personal sites.
-  metadata:
-    - label: Role
-      value: Maintainer
-    - label: Audience
-      value: Researchers
+    - Utilized an Astro template to design and implement a responsive portfolio website.
+    - Integrated various components to display projects, skills, and experience in an organized manner.
   tech:
     - Astro
-    - TypeScript
-    - Content Collections
+    - GitHub Pages
   links:
     - label: Repository
-      href: https://github.com/jxpeng98/
-    - label: Documentation
-      href: https://github.com/jxpeng98/
+      href: https://github.com/Will-Zimmermann/Portfolio.git
+
+- title: Subwoofer Redesign
+  subtitle: A personal project to redesign a thrifted subwoofer.  
+  status: active
+  period: Summer 2026 — Present
+  description: Design a new subwoofer PCB compatible with the existing enclosure of a Sony SA-WCT800 Active Subwoofer, that can connect via to an iPhone via Bluetooth.
+  badges:
+    - Microcontroller Programming
+    - Schematic and Simulation Design
+    - PCB Design
+  highlights:
+    - Designed a new PCB for the subwoofer using KiCAD, and implemented a Bluetooth audio receiver using a Raspberry Pi Pico.
+    - Programmed the Pico to read button inputs, display specific LED states, and control the additional ICs (TPA3116D2 amplifier, and MH-M18 Bluetooth audio receiver) via GPIOs.
+  tech:
+    - VS-Code (Python)
+    - KiCAD
+    - Raspberry Pi Pico
+    - TPA3116D2 Amplifier
+    - MH-M18 Bluetooth Audio Receiver
+    - JLCPCB
+  links:
+    - label: Repository
+      href: https://github.com/Will-Zimmermann/Subwoofer-Project.git
 
 - title: ECSE Design Methodology
   subtitle: Design and Build a functional Circuit Workbench
   status: past
   period: Spring 2026
   description: Using only pre-approved parts and a Raspberry Pi 4, include scrollable LCD UI, Ohmmeter, Internal and External Voltmeter, DC Voltage Reference, Frequency Measurement, and Function Generator (Square and Sine waves).
+  badges:
+    - Raspberry Pi 4 Programming
+    - Schematic and Simulation Design
   highlights: 
     - Co-operated with 5 teamates on every facet of the design
-    - Completed weekly progress reports and final design techincal documentation
+    - Completed weekly progress reports, and intensive techincal documentation
+  metadata:
+    - label: Role
+      value: Team Member
+    - label: Audience
+      value: ECSE 2920 Professors and TAs
   tech:
     - Python
     - Raspberry Pi 4
     - Digital Potentiometers
     - LCD and Rotary Encoder
     - OP-AMPs, Comparators, etc.
-  #images
-
+  image: "/ECSEPhoto.jpg"
 
 - title: Gaming PC Build
   subtitle: Planned and built my own gaming PC
   status: past
   period: Summer 2025
-  description: Set myself a max budget of $2000, and focused on optimizing for high performance. 
+  description: Built a gaming PC from scratch, including selecting compatible components, assembling the hardware, and installing the operating system and necessary drivers. The build was optimized for performance and cost-effectiveness. 
   highlights: 
     - Learned valuable knowledge of computer assembly and architecture. 
-#images
+    - Used PCPartPicker to plan and optimize the build for performance and cost, and ensure component compatibility.
+  badges:
+    - Computer Assembly
+  #images
   tech:
     - Windows
-    - PC Picker
+    - PCPartPicker
     - Newegg
   links:
     - label: PCPartPicker
