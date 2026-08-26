@@ -4,6 +4,7 @@
  * Start here for identity, profile, links, and page introductions.
  * Publications, CV records, projects, courses, and posts live in src/data
  * and src/content so this file stays quick to scan.
+ * 
  */
 import { defineSiteConfig } from "./src/config/site";
 
