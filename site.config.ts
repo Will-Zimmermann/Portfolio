@@ -9,11 +9,11 @@ import { defineSiteConfig } from "./src/config/site";
 
 export const siteConfig = defineSiteConfig({
 	// Required: the four values most sites should personalize first.
-	author: "William R. Zimmermann",
+	author: "Will Zimmermann",
 	siteUrl: "https://astro-theme-scholars.pages.dev",
 	hero: {
 		headline:
-			"Will Zimmermann",
+			"William R. Zimmermann",
 		subheadline:
 			"Hello! I am a student at the University of Georgia, pursuing a degree in Electrical Engineering. Born and raised in Athens GA, I have always been passionate about building and fixing things, and I am excited to continue learning and tackling new challenges in this field.",
 		//statusBadge: "Open to collaboration",
@@ -33,8 +33,8 @@ export const siteConfig = defineSiteConfig({
 	// locale: "en_US",
 	// ogImage: "/social-card.png", // Prefer a 1200 × 630 raster image.
 	// ogImageAlt: "Your Name — academic portfolio",
-	// ogImageWidth: 1200,
-	// ogImageHeight: 630,
+	ogImageWidth: 1200,
+	ogImageHeight: 630,
 	affiliations: [
 		{
 			role: "Student",
@@ -52,12 +52,12 @@ export const siteConfig = defineSiteConfig({
 	socialLinks: [
 		{
 			label: "GitHub",
-			href: "https://github.com/your-handle",
+			href: "https://github.com/Will-Zimmermann",
 			icon: "i-mdi:github",
 		},
 		{
 			label: "Email",
-			href: "mailto:you@example.edu",
+			href: "mailto:wrz41124@uga.edu",
 			icon: "i-mdi:email-outline",
 		},
 	],

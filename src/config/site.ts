@@ -88,10 +88,10 @@ const defaultHomeBlocks: SiteConfig["homeBlocks"] = {
  * defaults here so routine personalization stays short and type-safe.
  */
 export function defineSiteConfig(input: SiteConfigInput): SiteConfig {
-	const profileImage = input.hero.profileImage ?? "/profile.svg";
+	const profileImage = input.hero.profileImage ?? "/Headshot.png";
 	const profileAlt = input.hero.profileAlt ?? `Portrait of ${input.author}`;
-	const profileImageHeight = input.hero.profileImageHeight ?? 160;
-	const profileImageWidth = input.hero.profileImageWidth ?? 160;
+	const profileImageHeight = input.hero.profileImageHeight ?? 350;
+	const profileImageWidth = input.hero.profileImageWidth ?? 350;
 	const ogImage = input.ogImage ?? profileImage;
 	const ogImageUsesProfile = ogImage === profileImage;
 

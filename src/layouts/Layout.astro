@@ -48,7 +48,7 @@ const seoTitle = title && !isHomePage ? `${title} | ${siteConfig.title}` : siteC
 const pageTitle = title || siteConfig.title;
 const seoDesc =
   description || siteConfig.description || siteConfig.hero.subheadline;
-const rawOgImage = image || siteConfig.ogImage || "/profile.svg";
+const rawOgImage = image || siteConfig.ogImage || "/Headshot.png";
 const ogImage = buildAbsoluteUrl(rawOgImage, siteConfig.siteUrl);
 const resolvedImageAlt = imageAlt || siteConfig.ogImageAlt || pageTitle;
 const resolvedImageWidth = imageWidth ?? (!image ? siteConfig.ogImageWidth : undefined);
@@ -641,12 +641,11 @@ function isActiveNav(href: string): boolean {
             href="/"
             aria-label={`${siteTitle} home`}
           >
-            <span
-              aria-hidden="true"
-              class="site-monogram-glass inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border font-heading text-base font-semibold text-accent-800 transition-colors group-hover:border-accent-500 dark:text-accent-200 dark:group-hover:border-accent-600"
-            >
-              {siteMonogram}
-            </span>
+            <img 
+              src="/favicon.svg" 
+              alt="Monogram Logo" 
+              class="h-8 w-8 shrink-0 rounded-lg border border-transparent transition-colors group-hover:border-accent-500 dark:group-hover:border-accent-600 object-contain"
+            />
             <span class="truncate font-heading text-xl font-semibold tracking-[-0.015em]">
               {siteTitle}
             </span>

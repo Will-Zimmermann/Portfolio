@@ -28,7 +28,7 @@
     - Designed a new PCB for the subwoofer using KiCAD, and implemented a Bluetooth audio receiver using a Raspberry Pi Pico.
     - Programmed the Pico to read button inputs, display specific LED states, and control the additional ICs (TPA3116D2 amplifier, and MH-M18 Bluetooth audio receiver) via GPIOs.
   tech:
-    - VS-Code (Python)
+    - Python
     - KiCAD
     - Raspberry Pi Pico
     - TPA3116D2 Amplifier
@@ -60,7 +60,7 @@
     - Digital Potentiometers
     - LCD and Rotary Encoder
     - OP-AMPs, Comparators, etc.
-  image: "/ECSEPhoto.jpg"
+  #image: "/ECSEPhoto.jpg"
 
 - title: Gaming PC Build
   subtitle: Planned and built my own gaming PC

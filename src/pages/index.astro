@@ -120,18 +120,18 @@ const profileAlt = siteConfig.hero.profileAlt || about.name;
           </div>
         </div>
 
-        <aside class="mx-auto w-full max-w-48 lg:mx-0" aria-label="Profile">
+        <aside class="mx-auto w-full max-w-80 lg:mx-0 lg:w-96" aria-label="Profile">
           <div class="relative overflow-hidden rounded-lg border border-paper-300 bg-white/64 p-1.5 dark:border-ink-700 dark:bg-ink-900/68">
-              <Image
-                src={about.avatar}
-                alt={profileAlt}
-                width={siteConfig.hero.profileImageWidth || 160}
-                height={siteConfig.hero.profileImageHeight || 160}
-                layout="constrained"
-                fit="cover"
-                priority
-                class="aspect-square h-auto w-full rounded-md object-cover"
-              />
+            <Image
+              src={about.avatar}
+              alt={profileAlt}
+              width={siteConfig.hero.profileImageWidth || 350}
+              height={siteConfig.hero.profileImageHeight || 350}
+              layout="constrained"
+              fit="cover"
+              priority
+              class="aspect-square h-auto w-full rounded-md object-cover"
+            />
           </div>
           {statusBadge && (
             <p class="mt-4 flex items-center justify-center gap-2 text-center text-xs font-semibold uppercase tracking-[0.1em] text-emerald-700 dark:text-emerald-300 lg:justify-start">
