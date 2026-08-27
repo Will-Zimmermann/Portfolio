@@ -10,7 +10,8 @@
     - Integrated various components to display projects, skills, and experience in an organized manner.
   tech:
     - Astro
-    - GitHub Pages
+    - HTML
+    - Cloudflare Pages
   links:
     - label: Repository
       href: https://github.com/Will-Zimmermann/Portfolio.git
@@ -19,7 +20,7 @@
   subtitle: A personal project to redesign a thrifted subwoofer.  
   status: active
   period: Summer 2026 — Present
-  description: Design a new subwoofer PCB compatible with the existing enclosure of a Sony SA-WCT800 Active Subwoofer, that can connect via to an iPhone via Bluetooth.
+  description: Design a new subwoofer PCB compatible with the existing enclosure of a Sony SA-WCT800 Active Subwoofer, that can connect to an iPhone via Bluetooth.
   badges:
     - Microcontroller Programming
     - Schematic and Simulation Design
@@ -60,7 +61,9 @@
     - Digital Potentiometers
     - LCD and Rotary Encoder
     - OP-AMPs, Comparators, etc.
-  #image: "/ECSEPhoto.jpg"
+  links:
+    - label: Showcase Repository
+      href: https://github.com/Will-Zimmermann/ECSE-Design-Methodology.git
 
 - title: Gaming PC Build
   subtitle: Planned and built my own gaming PC

@@ -16,7 +16,7 @@ export const siteConfig = defineSiteConfig({
 		headline:
 			"William R. Zimmermann",
 		subheadline:
-			"Hello! I am a student at the University of Georgia, pursuing a degree in Electrical Engineering. Born and raised in Athens GA, I have always been passionate about building and fixing things, and I am excited to continue learning and tackling new challenges in this field.",
+			"Hello! I am a student at the University of Georgia, pursuing a degree in Electrical Engineering. Born and raised in Oconee County GA, I have always been passionate about building and fixing things, and I am excited to continue learning and tackling new challenges in this field.",
 		//statusBadge: "Open to collaboration",
 	},
 
@@ -61,6 +61,11 @@ export const siteConfig = defineSiteConfig({
 			href: "mailto:wrz41124@uga.edu",
 			icon: "i-mdi:email-outline",
 		},
+		{
+			label: "Resume PDF",
+			href: "/resume.pdf",
+			icon: "i-mdi:file-document-outline"
+		}
 	],
 
 	// Optional: omit any entry to use the concise academic default copy.
